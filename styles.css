@@ -42,7 +42,7 @@ span {
 
 button {
   background-color: teal;
-  width: 85px;
+  width: 130px;
   color: aliceblue;
   font-weight: 500;
   border-radius: 20px;
@@ -53,4 +53,16 @@ button {
 button:hover {
   opacity: 0.4;
   background-color: gray;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 2rem;
+  }
 }
